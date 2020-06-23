@@ -88,7 +88,7 @@
           <tr>
             <td width="67%" valign="middle">
               <p align="center" lang="zh-cn"><name>Rui Shu 束 锐</name></p>
-              <p> I am recently a Ph.D. candidate in the <a href="http://ai4se.net/">RAISE Lab</a> (Real-world Artifical Intelligence for Software Engineering) at <a href="https://www.ncsu.edu/">North Carolina State University</a>, under the supervision of <a href="http://menzies.us/">Dr. Tim Menzies</a>. My interest includes machine learning optimization. I am expected to graduate in 2020. 
+              <p> I am recently a Ph.D. candidate in the <a href="http://ai4se.net/">RAISE Lab</a> (Real-world Artifical Intelligence for Software Engineering) at <a href="https://www.ncsu.edu/">North Carolina State University</a>, under the supervision of <a href="http://menzies.us/">Dr. Tim Menzies</a>. My interest includes machine learning optimization. I am expected to graduate in 2021 Spring. 
               </p>
               <p>
               I achieved my master degree in <a href="http://english.pku.edu.cn/">Peking University</a> in 2014 and obtained my bachelor degree in <a href="http://en.njtu.edu.cn/">Beijing Jiaotong University</a> in 2010.
@@ -110,7 +110,7 @@
             <td width="100%" valign="middle">
               <heading>Research</heading>
               <p>
-                I am now interested in machine learning optimization. I was working in Docker security issues, including identifying security vulnerabilities in Docker images, and detecting security anomalies in Docker containers using machine learning techniques.
+                I am now interested in machine learning model optimization and adversarial attacks. I was working in Docker security issues, including identifying security vulnerabilities in Docker images, and detecting security anomalies in Docker containers using machine learning techniques.
               </p>
             </td>
           </tr>
@@ -118,59 +118,58 @@
 
         <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
           
+          <tr>
+            <td width="25%"><img src="course.png" alt="effort estimation" width="160" height="120" style="border-style: none">
+              <td width="75%" valign="top">
+                <p>
+                  <a href="https://rshu.github.io/">
+                    <papertitle>Predicting Project Health for Open Source Projects (using the DECART Hyperparameter Optimizer)</papertitle>
+                  </a>
+                  <br>
+                  <a href="http://xiatianpei.com/"> Tianpei Xia</a>, <a href="http://fuwei.us/"> Wei Fu</a>, <a href="https://rshu.github.io/"> Rui Shu</a>, <a href="http://menzies.us/"> Tim Menzies</a>
+                  <br>
+                  <em>In Submission to ASE</em>, 2020
+                  <br>
+                </p>
+                <p>Software developed on public platforms are a source of data that can be used to make predictions about those projects. While the activity of a single developer may be random and hard to predict, when large groups of developers work together on software projects, the resulting behavior can be predicted with good accuracy. To demonstrate this, we use 78,455 months of data from 1,628 GitHub projects to make various predictions about the current status of those projects (as of April 2020). We find that traditional estimation algorithms make many mistakes. Algorithms like k-nearest neighbors (KNN), support vector regression (SVR), random forest (RFT), linear regression (LNR), and regression trees (CART) have high error rates (usually more than 50% wrong, sometimes over 130% wrong, median values). But that error rate can be greatly reduced using the DECART hyperparameter optimization. DECART is a differential evolution (DE) algorithm that tunes the CART data mining system to the particular details of a specific project.</p>
+                <br>
+                </p>
+              </td>
+          </tr>
           
           <tr>
             <td width="25%"><img src="parento.png" alt="epsilon" width="160" height="120" style="border-style: none">
               <td width="75%" valign="top">
                 <p>
                   <a href="https://rshu.github.io/">
-                    <papertitle>Efficient Security Bug Report Classification using Epsilon Dominance</papertitle>
+                    <papertitle>How to Better Distinguish Security Bug Reports (using Dual Hyperparameter Optimization)</papertitle>
                   </a>
                   <br>
-                  <a href="https://rshu.github.io/">Rui Shu</a>,<a href="https://jianfeng.us/"> Jianfeng Chen</a>, <a href="https://collaboration.csc.ncsu.edu/laurie/"> Laurie Williams</a>, <a href="http://menzies.us/">Tim Menzies</a>
+                  <a href="https://rshu.github.io/">Rui Shu</a>,<a href="http://xiatianpei.com/"> Tianpei Xia</a>, <a href="https://jianfeng.us/"> Jianfeng Chen</a>, <a href="https://collaboration.csc.ncsu.edu/laurie/"> Laurie Williams</a>, <a href="http://menzies.us/">Tim Menzies</a>
                   <br>
-                  <em>In Submission</em>, 2019
+                  <em>In Submission to EMSE</em>, 2019
                   <br>
                 </p>
-                <p>In this paper, we propose to apply epsilon donimance to achieve faster and more efficient security bug reports classification.</p>
+                <p>The goal of this research is to aid practitioners as they struggle to optimize methods that try to distinguish between rare security bug reports and other bug reports. Our proposed method, called Swift, is a dual optimizer that optimizes both learner and pre-processor options. Since this is a large space of options, Swift uses a technique called epsilon-dominance that learns how to avoid operations which do not significantly improve performance. </p>
                 <br>
                 </p>
               </td>
           </tr>
     
           <tr>
-            <td width="25%"><img src="course.png" alt="effort estimation" width="160" height="120" style="border-style: none">
+            <td width="25%"><img src="software_development_styles.png" alt="effort estimation" width="160" height="120" style="border-style: none">
               <td width="75%" valign="top">
                 <p>
                   <a href="https://rshu.github.io/">
                     <papertitle>Sequential Model Optimization for Software Process Control</papertitle>
                   </a>
                   <br>
-                  <a href="http://xiatianpei.com/"> Tianpei Xia</a>,<a href="https://jianfeng.us/"> Jianfeng Chen</a>,<a href="https://rshu.github.io/"> Rui Shu</a>,<a href="http://menzies.us/"> Tim Menzies</a>
+                  <a href="http://xiatianpei.com/"> Tianpei Xia</a>,<a href="https://rshu.github.io/"> Rui Shu</a>, <a href="https://people.engr.ncsu.edu/xshen5/"> Xipeng Shen</a>, <a href="http://menzies.us/"> Tim Menzies</a>
                   <br>
-                  <em>Technical Reports, TR-2019-5</em>, 2019
-                  <br>
-                </p>
-                <p>In this paper, we propose to apply hyperparameter optimization in effort estimation.</p>
-                <br>
-                </p>
-              </td>
-          </tr>
-
-          <tr>
-            <td width="25%"><img src="SMOTE.jpg" alt="SMOTE" width="160" height="120" style="border-style: none">
-              <td width="75%" valign="top">
-                <p>
-                  <a href="https://rshu.github.io/">
-                    <papertitle>Better Security Bug Report Classification via Hyperparameter Optimization</papertitle>
-                  </a>
-                  <br>
-                  <a href="https://rshu.github.io/">Rui Shu</a>,<a href="http://xiatianpei.com/"> Tianpei Xia</a>, <a href="https://collaboration.csc.ncsu.edu/laurie/"> Laurie Williams</a>, <a href="http://menzies.us/">Tim Menzies</a>
-                  <br>
-                  <em>In submission</em>, 2019
+                  <em>In Submission to TSE</em>, 2020
                   <br>
                 </p>
-                <p>In this paper, we propose to apply hyperparameter optimization and data balancing techniques to improve Peters' FARSEC prediction results. On the one hand, we leverage an optimizer called differential evolution (DE) algorithm to optimize learners' hyperparameters. On the other hand, we use the synthetic minority oversampling technique (SMOTE) and a tuned version SMOTUNED to address the imbalanced class problem in bug report dataset. Our experiment results shown that our proposed approaches can efficiently improve the baseline prediction results.</p>
+                <p>Many methods have been proposed to estimate how much effort is required to build and maintain software. Much of that research assumes a" classic" waterfall-based approach rather than contemporary agile projects. Also, much of that work tries to recommend a single method--an approach that makes the dubious assumption that one method can handle the diversity of software project data. To address these drawbacks, we apply a configuration technique called" ROME"(Rapid Optimizing Methods for Estimation), which uses sequential model-based optimization to find what combination of techniques works best for a particular data set. In this paper, we test this method using data from 1161 classic waterfall projects and 446 contemporary agile projects (from Github).</p>
                 <br>
                 </p>
               </td>
@@ -279,7 +278,7 @@
         <br>
         <p align="right">
           <font size="2">
-          Website template credit from <a href="https://jonbarron.info/"><strong>Jon Barron</strong></a>. Last updated on July 6th, 2019.
+          Website template credit from <a href="https://jonbarron.info/"><strong>Jon Barron</strong></a>. Last updated on June 23rd, 2020.
           </font>
         </p>
         </td>
